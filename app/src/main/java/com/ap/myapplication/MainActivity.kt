@@ -12,6 +12,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         tv1.setOnClickListener {
+//             Toast message
             Toast.makeText(this, "tv Clicked...", Toast.LENGTH_LONG)
         }
     }
